@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Markazi Text', serif;
+    background-color: #f4f4f4;
+    user-select: none;
+}
+
+.name {
+    font-family: 'Newsreader', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+
+	max-width: fit-content; 
+	margin-inline: auto;
+}
+
