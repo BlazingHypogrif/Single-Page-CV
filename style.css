@@ -1,24 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap");
 
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Markazi Text', serif;
-    background-color: #f4f4f4;
-    user-select: none;
+  font-family: "Markazi Text", serif;
+  background-color: #f4f4f4;
+  user-select: none;
+}
+
+.wrapper {
+  display: grid;
 }
 
 .name {
-    font-family: 'Newsreader', serif;
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #333;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
 
-	max-width: fit-content; 
-	margin-inline: auto;
+  max-width: fit-content;
+  margin-inline: auto;
 }
 
+#contact-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 0px 40vh;
+}
+
+/* Contact Info Items */
+.number{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+}
+
+.gitHub{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 7px;
+}
+
+/* About Me Section */
+
+.about-me-title {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    font-size: 30px;
+    background-color: rgb(190, 190, 190);
+    width: 90%;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.about-me-title span {
+    margin-left: 50%;
+}
+
+#user-icon {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5vh;
+}
+
+.about-me-text{
+    display: flex;
+    font-size: 24px;
+    margin-top: 10px;
+    padding: 0px 40vh;
+}
